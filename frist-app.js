@@ -15,3 +15,20 @@ const person = {
 
 person.primeiraForma();
 person.segundaForma();
+
+//copiando objetos
+const copiedPerson = { ...person };
+console.log(copiedPerson);
+
+//array aninhado
+const hobbies = ["sport", "gym"];
+const copiedHobbies = [...hobbies];
+console.log(copiedHobbies);
+
+//Rest Operators
+
+const toArray = (...args) => {
+  return args;
+};
+
+console.log(toArray(1, 2, 3, 4));
