@@ -32,3 +32,21 @@ const toArray = (...args) => {
 };
 
 console.log(toArray(1, 2, 3, 4));
+
+//Distructuring
+
+const person1 = {
+  name: "Test",
+  age: 28,
+};
+
+const printName = ({ name }) => {
+  console.log(name);
+};
+
+//OU
+
+const { name, age } = person1;
+
+console.log(name, age);
+printName(person1);
