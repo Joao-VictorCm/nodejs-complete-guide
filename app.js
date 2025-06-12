@@ -40,5 +40,5 @@ const server = http.createServer((req, res) => {
   res.end();
   console.log(`servidor rodando na porta ${port}`);
 });
-
+s
 server.listen(port);
